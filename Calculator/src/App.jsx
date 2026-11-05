@@ -65,7 +65,7 @@ const App = () => {
   return (
     <>
       <AppTitle />
-      <div className="Juho's calculator">
+      <div className="calculator">
         <Display displayValue={calVal} />
         <ButtonsContainer handleOnClick={onButtonClick} />
       </div>
