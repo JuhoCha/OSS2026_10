@@ -19,6 +19,7 @@ const ButtonsContainer = ({ handleOnClick }) => {
     "9",
     "0",
     ".",
+    "<<",
   ];
 
   return (

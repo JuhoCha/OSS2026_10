@@ -18,7 +18,7 @@ const App = () => {
       } catch (error) {
         setCalVal("Error");
       }
-    } else if (buttonName === "Backspace") {
+    } else if (buttonName === "Backspace" || buttonName === "<<") {
       setCalVal((prevValue) => prevValue.slice(0, -1));
     } else if (buttonName === "C") {
       setCalVal("");
